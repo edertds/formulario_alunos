@@ -58,7 +58,9 @@ function cadastroNome(nome){
 	}else {
 		obj = inputNome.style.borderColor="#fff";
 	}
+
 	var aux = nome.match(/\d/);
+
 	if(aux != null){
 		//return true;
 		obj = inputNome.style.borderColor="#f00";				
@@ -76,7 +78,9 @@ function cadastroNota(nota){
 	}else{
 		obj = inputNota.style.borderColor="#fff";
 	}
+
 	var auxNota = nota.match(/\D/);
+
 	if(auxNota != null){
 		obj = inputNota.style.borderColor="#f00";
 		alert("Preencha o campo somente com números!");
@@ -98,16 +102,19 @@ function fecharCadastro(){
 //Salva os dados cadastrados
 function salvarCadastro(event){
 	event.preventDefault();
+
 	var nome = inputNome.value;
 	var data = inputData.value;
 	var fone = inputFone.value;
 	var nota = inputNota.value;	
+
 	listaCadastro.push({
 		nomes: nome,
 		datas: data,
 		fones: fone,
 		notas: nota,
 	});	
+
 	atualizarTabelaCadastro();
 	fecharCadastro();			
 	cadastroNome(nome);
