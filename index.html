@@ -5,22 +5,22 @@
 	<meta charset="utf-8">
 	<title>Cadastro de Alunos</title>
 	<link rel="stylesheet" type="text/css" href="https://github.com/edertds/formulario_alunos/blob/main/style.css">
-	
 </head>
 
 <body>	
 	<form id="formulario" class="ocultar" name="formCad" action="" method="post">
 		<h1 style="text-align: center; margin-bottom: 40px; font-family: Antic Didone; font-weight: bold; color: #00627B">CADASTRO DE ALUNOS</h1>
+
 		<label >NOME</label>
-		<input class="quebra inpDist erro ok" id="nome" type="text" maxlength="50" size="50" autocomplete="off" placeholder="Digite um nome..." required=""
-		
-    <label>DATA DE NASCIMENTO</label>
+		<input class="quebra inpDist erro ok" id="nome" type="text" maxlength="50" size="50" autocomplete="off" placeholder="Digite um nome..." required="">
+
+		<label>DATA DE NASCIMENTO</label>
 		<input class="quebra inpDist" id="data" type="date" autocomplete="off" required="">
 		
 		<label>TELEFONE (celular)</label>
 		<input class="quebra inpDist" id="fone" type="text" maxlength="9" size="9" autocomplete="off" placeholder="Digite um número sem o DDD..." pattern="\d{9}" required="" > 
-		
-    <label>NOTA</label
+
+		<label>NOTA</label>
 		<input class="quebra inpDist" id="nota" type="text" maxlength="20" size="20" autocomplete="off" placeholder="Digite uma nota..." required="">
 		
 		<div class="centralizar">
@@ -28,12 +28,14 @@
 			<button class="botao2" type="submit">Salvar</button>
 			<button class="botao4" type="reset">Limpar</button>
 		</div>
-	</form>	
+	</form>
+	
 	
 	<div id="nCadastro" class="centralizar formatarTexto">		
 		<h2>Alunos Cadastrados</h2>
 		<button id="openCadastro" class="botao3" type="reset" >Novo Cadastro</button>			
 	</div>	
+
 	<div class="dist centralizar">
 		<table class="table">
 				<thead> 
@@ -54,6 +56,8 @@
 		    </tbody>         
     </table>
 	</div>
+
 	<script src="https://github.com/edertds/formulario_alunos/blob/main/script.js"></script>
+
 </body>
 </html>
