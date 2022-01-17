@@ -1,0 +1,146 @@
+{
+	margin: 0px;
+	padding: 0px;
+	outline: 0px;
+	overflow: auto;	
+}
+form{
+	border: 1px solid #9c9;	
+	margin: 50px auto;
+	margin-top: 1px;
+	width: 500px;
+	height: 450px;
+	padding: 40px;
+	border-radius: 5px;
+	background: #9c9;	
+}
+.ocultar{
+	display: none;
+}
+.quebra{display: block;}
+.inpDist{margin-bottom: 10px;}
+input{
+	border: 1px solid #9c9;
+	width: 366px;
+	height: 40px;
+	font-size: 12pt;
+	margin: auto;	
+	padding-left: 5px;
+	border-radius: 5px;	
+}
+label{	
+	padding-left: 64px;
+	font-family: Antic Didone; 
+	font-weight: bold; 
+	color: #00627B;	
+}
+h3{margin-left: 25px;}
+.botao1{
+	margin-left: 60px;
+	margin-top: 40px;
+	width: 300px;
+	height: 35px;
+	border-radius: 10px;
+	border: 1px solid #BF2431;
+	background: #BF2431;
+	color: #eee;
+	font-weight: bold;
+	font-size: 12pt;
+}
+.botao1:hover{
+	font-weight: bold;	
+	background: #f00;
+	color: #fff;
+	border: 1px solid #f00;
+	cursor: pointer;
+}
+.botao2{
+	margin-left: 60px;
+	margin-top: 40px;
+	width: 300px;
+	height: 35px;
+	border-radius: 10px;
+	border: 1px solid #2180A6;;
+	background: #2180A6;;
+	color: #eee;
+	font-weight: bold;
+	font-size: 12pt;
+}
+.botao2:hover{
+	font-weight: bold;	
+	background: #00f;
+	color: #fff;
+	border: 1px solid #00f;
+	cursor: pointer;
+}
+.botao3{
+	margin-left: 60px;
+	margin-top: 40px;
+	width: 300px;
+	height: 35px;
+	border-radius: 10px;
+	border: 1px solid #7BB367;
+	background: #7BB367;
+	color: #eee;
+	font-weight: bold;
+	font-size: 12pt;
+}
+.botao3:hover{
+	font-weight: bold;	
+	background: #0C6623;
+	color: #fff;
+	border: 1px solid #0C6623;
+	cursor: pointer;
+}
+.botao4{
+	margin-left: 60px;
+	margin-top: 40px;
+	width: 300px;
+	height: 35px;
+	border-radius: 10px;
+	border: 1px solid #7BB367;
+	background: #7BB367;
+	color: #eee;
+	font-weight: bold;
+	font-size: 12pt;
+}
+.botao4:hover{
+	font-weight: bold;	
+	background: #0C6623;
+	color: #fff;
+	border: 1px solid #0C6623;
+	cursor: pointer;
+}
+.botaoClose{
+	width: 100px;
+	height: 29px;
+	border-radius: 10px;
+	background-color: #f00;
+	color: #fff;
+	
+}
+.centralizar{
+	display: flex;
+	justify-content: center;
+}
+.dist{	
+	margin-top: 10px;
+}
+.formatarTexto{
+	font-size: 20pt;
+	font-weight: bold;
+}
+table{
+	width: 900px;	
+	border-top: 2px solid #000;		
+}
+tr:nth-child(even){
+	background-color: #eee;		
+}
+tr{	
+	height: 35px;
+}
+thead{
+	font-weight: bold;
+	font-size: 14pt;
+}
