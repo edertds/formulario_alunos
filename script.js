@@ -7,13 +7,16 @@ var inputData = document.getElementById("data");
 var inputFone = document.getElementById("fone");
 var inputNota = document.getElementById("nota");
 var tabelaCadastro = document.getElementById("tabela");
+
 var listaCadastro = [];
+
 //Remove aluno cadastrado
 function removerCadastro(event){
 	var posicao = event.target.getAttribute("data-lista");
 	listaCadastro.splice(posicao, 1);
 	atualizarTabelaCadastro();
 }
+
 //Atualiza o cadastro
 function atualizarTabelaCadastro(){
 	if(listaCadastro.length === 0){
@@ -46,6 +49,7 @@ function atualizarTabelaCadastro(){
 		tabelaCadastro.appendChild(linha);				
 	}			
 }
+
 //Testa a entrada de nomes no cadastro
 function cadastroNome(nome){
 	if(nome.trim().length === 0){
@@ -63,6 +67,7 @@ function cadastroNome(nome){
 		obj = inputNome.style.borderColor="#fff";
 	}		
 }
+
 //Testa a entrada de notas no cadastro
 function cadastroNota(nota){
 	if(nota < 0 || nota > 10){
@@ -79,14 +84,17 @@ function cadastroNota(nota){
 		obj = inputNota.style.borderColor="#fff";
 	}	
 }
+
 //Abre o formulário ocultado
 function abrirCadastro(){	
 	cadastro.classList.remove("ocultar");	
 }
+
 //Fecha o formulário
 function fecharCadastro(){	
 	cadastro.classList.add("ocultar");	
 }
+
 //Salva os dados cadastrados
 function salvarCadastro(event){
 	event.preventDefault();
@@ -105,6 +113,7 @@ function salvarCadastro(event){
 	cadastroNome(nome);
 	cadastroNota(nota);		
 }
+
 botaoAbrir.addEventListener("click", abrirCadastro);
 botaoFechar.addEventListener("click", fecharCadastro);
 botaoSalvar.addEventListener("submit", salvarCadastro);
