@@ -4,6 +4,7 @@
 	outline: 0px;
 	overflow: auto;	
 }
+
 form{
 	border: 1px solid #9c9;	
 	margin: 50px auto;
@@ -14,11 +15,15 @@ form{
 	border-radius: 5px;
 	background: #9c9;	
 }
+
 .ocultar{
 	display: none;
 }
+
 .quebra{display: block;}
+
 .inpDist{margin-bottom: 10px;}
+
 input{
 	border: 1px solid #9c9;
 	width: 366px;
@@ -28,13 +33,16 @@ input{
 	padding-left: 5px;
 	border-radius: 5px;	
 }
+
 label{	
 	padding-left: 64px;
 	font-family: Antic Didone; 
 	font-weight: bold; 
 	color: #00627B;	
 }
+
 h3{margin-left: 25px;}
+
 .botao1{
 	margin-left: 60px;
 	margin-top: 40px;
@@ -47,6 +55,7 @@ h3{margin-left: 25px;}
 	font-weight: bold;
 	font-size: 12pt;
 }
+
 .botao1:hover{
 	font-weight: bold;	
 	background: #f00;
@@ -54,6 +63,7 @@ h3{margin-left: 25px;}
 	border: 1px solid #f00;
 	cursor: pointer;
 }
+
 .botao2{
 	margin-left: 60px;
 	margin-top: 40px;
@@ -66,6 +76,7 @@ h3{margin-left: 25px;}
 	font-weight: bold;
 	font-size: 12pt;
 }
+
 .botao2:hover{
 	font-weight: bold;	
 	background: #00f;
@@ -73,6 +84,7 @@ h3{margin-left: 25px;}
 	border: 1px solid #00f;
 	cursor: pointer;
 }
+
 .botao3{
 	margin-left: 60px;
 	margin-top: 40px;
@@ -85,6 +97,7 @@ h3{margin-left: 25px;}
 	font-weight: bold;
 	font-size: 12pt;
 }
+
 .botao3:hover{
 	font-weight: bold;	
 	background: #0C6623;
@@ -92,6 +105,7 @@ h3{margin-left: 25px;}
 	border: 1px solid #0C6623;
 	cursor: pointer;
 }
+
 .botao4{
 	margin-left: 60px;
 	margin-top: 40px;
@@ -104,6 +118,7 @@ h3{margin-left: 25px;}
 	font-weight: bold;
 	font-size: 12pt;
 }
+
 .botao4:hover{
 	font-weight: bold;	
 	background: #0C6623;
@@ -111,6 +126,7 @@ h3{margin-left: 25px;}
 	border: 1px solid #0C6623;
 	cursor: pointer;
 }
+
 .botaoClose{
 	width: 100px;
 	height: 29px;
@@ -119,27 +135,34 @@ h3{margin-left: 25px;}
 	color: #fff;
 	
 }
+
 .centralizar{
 	display: flex;
 	justify-content: center;
 }
+
 .dist{	
 	margin-top: 10px;
 }
+
 .formatarTexto{
 	font-size: 20pt;
 	font-weight: bold;
 }
+
 table{
 	width: 900px;	
 	border-top: 2px solid #000;		
 }
+
 tr:nth-child(even){
 	background-color: #eee;		
 }
+
 tr{	
 	height: 35px;
 }
+
 thead{
 	font-weight: bold;
 	font-size: 14pt;
